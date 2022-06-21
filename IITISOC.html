@@ -13,7 +13,7 @@
            padding: 0;
         }
         body{
-           
+            margin: none;
   
         }
     nav{
@@ -27,7 +27,12 @@
         display: block;
         float: left;
         padding: 15px 15px;
-        margin-right: 140px;
+        margin-right: 150px;
+        position: relative;
+        left: 10px;
+        font-size: larger;
+        font-family: 'Courier New', monospace;
+
     }
     header{
         background-color: black;
@@ -40,19 +45,25 @@
        
     }
 .nav link {
-    margin-right: 50px;
+    margin-right: 100px;
 }
+nav .link:hover{
+    background-color: rgb(221, 213, 202);
+    border-radius: 15px;
+}
+
     </style>
 </head>
 
 <body>
     <header> CP Help@r </header>
-    <nav> 
+    <nav class="ttal"> 
         <th><a class="link" href="#">Home</a></th>
         <th><a class="link" href="#">Home</a></th>    
         <th><a class="link" href="#"> Resources </a></th>  
         <th><a class="link" href="#"> Discussion</a> </th>   
-        <th> <a class="link" href="#">Login/Sign Up</a> </th> 
+        <th> <a class="link" href="Sign UP Page.html" target="_blank">Login/Sign Up</a> </th> 
     </nav>
+    
 </body>
 </html>
