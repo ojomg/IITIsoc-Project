@@ -5,28 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>online gaming</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Finlandica:ital@1&display=swap" rel="stylesheet">
     <style>
+       
+        * {
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        body{
+            background-color: rgb(7, 6, 6);
+        }
         .main{
+            background-color: blueviolet;
             display: flex;
-            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 9%;
+            font-family: 'Finlandica', sans-serif;
+            color: azure;
         }
-        .main2{
+  
+        .navigate_links {
+            list-style: none;
+        }
+  
+        .navigate_links li  {
+            display: inline-block;
+            padding: 0px 20px;
+            font-size: 18px;
+            
+        }
+
+        .navigate_links li a {
+            transition: font-size;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            text-decoration: none;
+            color: azure;
+        }
+        .navigate_links a:hover{
+            font-size: 24px;
+        }
+        .head{
+            font-size: 50px;
+        }
+        .img{
             display: flex;
-            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
         }
+        img{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            right: 10px;
+        }
+
     </style>
 </head>
-   <div class="main"> 
-   <h1 class="head"> XYZgames </h1>
-   <div class="main2"> 
-   <nav> 
-    <th> <a href="#" > About </a></th>
-    <th> <a href="#" > Our Games </a></th>
-    <th> <a href="#" > Blog </a></th>
-   </nav>
-</div>
-</div>
+  
 <body>
-    
+<div class="main"> 
+    <div class="img"> 
+        <img  src="C:\Users\vyank\Desktop\soc\game.png" alt="erroe">
+        <h1 class="head"> XYZgames </h1>  
+    </div>
+        <ul class="navigate_links"> 
+        <li>  <th> <a href="#" > About </a></th></li>
+        <li>  <th> <a href="#" > Our Games </a></th></li>
+        <li>  <th> <a href="#" > Blog </a></th></li>
+        </ul>
+     
+     </div>
 </body>
 </html>
